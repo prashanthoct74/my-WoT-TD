@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "http://example.org/lightbulb-model",
+  "title": "Light Bulb Model",
+  "description": "An external light bulb model for Web of Things (WoT).",
+  "properties": {
+    "status": {
+      "type": "boolean",
+      "description": "Current status of the light bulb. True means ON, and False means OFF.",
+      "readOnly": true
+    },
+    "brightness": {
+      "type": "integer",
+      "description": "Brightness level of the light bulb (0-100).",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "actions": {
+    "turnOn": {
+      "description": "Turn on the light bulb.",
+      "safe": true
+    },
+    "turnOff": {
+      "description": "Turn off the light bulb.",
+      "safe": true
+    },
+    "setBrightness": {
+      "description": "Set the brightness level of the light bulb.",
+      "input": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "safe": true
+    }
+  },
+  "events": {
+    "statusChange": {
+      "description": "Event emitted when the status of the light bulb changes.",
+      "data": {
+        "type": "boolean"
+      }
+    },
+    "brightnessChange": {
+      "description": "Event emitted when the brightness level of the light bulb changes.",
+      "data": {
+        "type": "integer"
+      }
+    }
+  }
+}
