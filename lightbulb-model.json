@@ -1,22 +1,15 @@
 {
-  "@context": "https://www.w3.org/2019/wot/td/v1",
-  "id": "lightbulb-model_v1",
-  "title": "Light Bulb Model",
-  "description": "An external light bulb model for Web of Things (WoT).",
+  "title": "Smart Light Bulb Model",
   "properties": {
     "status": {
       "type": "boolean",
-      "description": "Current status of the light bulb. True means ON, and False means OFF.",
-      "readOnly": true,
-      "semanticType": "https://schema.org/Boolean"
+      "description": "Current status of the light bulb. True means ON, and False means OFF."
     },
     "brightness": {
       "type": "integer",
       "description": "Brightness level of the light bulb (0-100).",
       "minimum": 0,
-      "maximum": 100,
-      "unit": "%",
-      "semanticType": "https://schema.org/Integer"
+      "maximum": 100
     }
   },
   "actions": {
