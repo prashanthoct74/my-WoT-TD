@@ -7,13 +7,16 @@
     "status": {
       "type": "boolean",
       "description": "Current status of the light bulb. True means ON, and False means OFF.",
-      "readOnly": true
+      "readOnly": true,
+      "semanticType": "https://schema.org/Boolean"
     },
     "brightness": {
       "type": "integer",
       "description": "Brightness level of the light bulb (0-100).",
       "minimum": 0,
-      "maximum": 100
+      "maximum": 100,
+      "unit": "%",
+      "semanticType": "https://schema.org/Integer"
     }
   },
   "actions": {
@@ -50,3 +53,4 @@
     }
   }
 }
+
