@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/2019/wot/td/v1",
-  "id": "http://example.org/lightbulb-model",
+  "id": "lightbulb-model_v1",
   "title": "Light Bulb Model",
   "description": "An external light bulb model for Web of Things (WoT).",
   "properties": {
