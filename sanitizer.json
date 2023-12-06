@@ -28,8 +28,15 @@
       "output": {
         "type": "string",
         "description": "Response message indicating success or failure."
-      }
-    },
+      },
+      "forms": [
+        {
+          "href": "http://localhost:8080/api/2/things/urn:dev:wot:buildingA:floor1:apartment1:room1:device1:thing/invoke-action/turnOn",
+          "contentType": "application/json",
+          "op": "invokeaction"
+         }
+        ]
+       },
     "turnOff": {
       "description": "Turn off the sanitizer.",
       "input": {},
