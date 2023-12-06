@@ -10,7 +10,7 @@
       "readOnly": false,
       "writeOnly": false,
       "observable": true,
-      "value": true
+      "value": null
     },
     "dispenserLevel": {
       "type": "number",
@@ -18,7 +18,7 @@
       "readOnly": true,
       "writeOnly": false,
       "observable": true,
-      "value": 80
+      "value": null
     }
   },
   "actions": {
