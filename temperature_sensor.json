@@ -1,0 +1,27 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "@type": "Thing",
+  "title": "temperature_sensor",
+  "description": "temperature_sensor",
+  "properties": {
+    "status": {
+              "properties": {
+                  "power": true,
+                  "brightness": 50
+              }
+          },
+     "color": {
+      "properties": {
+	  "hue": 30,
+	  "saturation": 80
+      }
+  }
+  },
+  "actions": {
+    // actions
+    }
+    ,
+  "events": {
+    // events
+    }
+}
