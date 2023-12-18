@@ -23,5 +23,11 @@
     ,
   "events": {
     // events
-    }
+    },
+  "dynamicAttributes": {
+    "block": ["block1", "block2"],             // Add more blocks as needed
+    "floor": [1, 2, 3, 4],                               // Add more floors as needed
+    "apartment": [1, 2, 3, 4],                           // Add more apartments as needed
+    "room": [1, 2]                   // Add more rooms as needed
+  }
 }
